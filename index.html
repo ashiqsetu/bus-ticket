@@ -6,31 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bus Ticket</title>
     <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&family=Raleway:wght@400..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- header area start here -->
-    <header>
+    <header class="pt-12 pb-[30px]">
         <div class="container mx-auto">
             <div class="flex items-center justify-between">
                 <div>
-                    <h1><a href="#">P.H Paribahan</a></h1>
+                    <h1><a class="font-raleway text-secondaryColor text-4xl font-extrabold" href="index.html">P.H
+                            Paribahan</a></h1>
                 </div>
-                <ul class="flex items-center gap-8">
+                <ul class="flex items-center gap-14">
                     <li>
-                        <a href="#">Home</a>
+                        <a class="font-raleway text-lg font-medium text-[rgba(3,7,18,70)] transition duration-300 hover:text-primaryColor"
+                            href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a class="font-raleway text-lg font-medium text-[rgba(3,7,18,70)] transition duration-300 hover:text-primaryColor"
+                            href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Destination</a>
+                        <a class="font-raleway text-lg font-medium text-[rgba(3,7,18,70)] transition duration-300 hover:text-primaryColor"
+                            href="#">Destination</a>
                     </li>
                     <li>
-                        <a href="#">Search</a>
+                        <a class="font-raleway text-lg font-medium text-[rgba(3,7,18,70)] transition duration-300 hover:text-primaryColor"
+                            href="#">Search</a>
                     </li>
                 </ul>
-                <div class="flex items-center gap-2">
+                <div
+                    class="font-raleway flex items-center gap-[10px] px-[30px] py-[16px] rounded-xl text-primaryColor bg-primaryColorA10 border border-primaryColorA40 text-xl font-bold">
                     <span>Bus</span>
                     <img src="dist/images/bus-icon.png" alt="">
                 </div>
@@ -44,31 +54,39 @@
             <div class="relative">
                 <img class="absolute w-full left-0 top-0" src="dist/images/banner.png" alt="">
                 <div class="relative z-10 pt-10 text-center">
-                    <h1>End-to_end Travel with</h1>
-                    <h2>P.H Paribahan</h2>
-                    <p> Yes, you can run unit tests and view the results directly within the app. The 
+                    <h1 class="font-raleway text-[64px] font-extrabold text-white">End-to-End Travel with</h1>
+                    <h1 class="font-raleway text-[64px] font-extrabold text-primaryColor mb-4">P.H Paribahan</h1>
+                    <p class="font-inter text-lg text-white w-3/5 m-auto text-center"> Yes, you can run unit tests and
+                        view the
+                        results directly
+                        within the app. The
                         integrated testing features allow for a streamlined .</p>
-                    <a href="#ticketSection">Buy Tickets</a>
-                    <div class="flex items-center justify-center gap-8">
-                        <div class="flex items-center gap-4"> 
+                    <a href="#ticketSection"
+                        class="bg-primaryColor text-secondaryColor font-raleway px-[30px] py-[21px] rounded-xl font-bold text-xl inline-flex mt-8 mb-[66px]">Buy
+                        Tickets</a>
+                    <div class="flex items-center justify-center gap-6 px-[100px]">
+                        <div
+                            class="flex-1 flex items-center gap-4 bg-white rounded-3xl pl-8 py-8 border-b-[3px] border-b-primaryColor">
                             <img src="dist/images/people.png" alt="">
                             <div class="text-left">
-                                <h3>50k+</h3>
-                                <p>Registered users</p>
+                                <h3 class="font-inter text-4xl text-secondaryColor font-bold mb-2">50k+</h3>
+                                <p class="font-inter text-lg text-secondaryColorA60">Registered users</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-4">
+                        <div
+                            class="flex-1 flex items-center gap-4 bg-white rounded-3xl pl-8 py-8 border-b-[3px] border-b-primaryColor">
                             <img src="dist/images/ticket-cupon.png" alt="">
                             <div class="text-left">
-                                <h3>1.7 lacks</h3>
-                                <p>Tickets sold</p>
+                                <h3 class="font-inter text-4xl text-secondaryColor font-bold mb-2">1.7 lacks</h3>
+                                <p class="font-inter text-lg text-secondaryColorA60">Tickets sold</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-4">
+                        <div
+                            class="flex-1 flex items-center gap-4 bg-white rounded-3xl pl-8 py-8 border-b-[3px] border-b-primaryColor">
                             <img src="dist/images/stoppage.png" alt="">
                             <div class="text-left">
-                                <h3>80k+</h3>
-                                <p>Rental partners</p>
+                                <h3 class="font-inter text-4xl text-secondaryColor font-bold mb-2">80k+</h3>
+                                <p class="font-inter text-lg text-secondaryColorA60">Rental partners</p>
                             </div>
                         </div>
                     </div>
@@ -78,7 +96,7 @@
     </section>
     <!-- banner area end here -->
     <!-- offers area start here -->
-    <section>
+    <section class="py-[120px]">
         <div class="container mx-auto">
             <div class="text-center">
                 <h2>Best offers for you</h2>
@@ -118,8 +136,8 @@
     <section>
         <div class="container">
             <div class="text-center">
-                <h2>Best offers for you</h2>
-                <p>Yes, you can run unit tests and view the results directly within the app. The integrated 
+                <h2>P.H Paribahan</h2>
+                <p>Yes, you can run unit tests and view the results directly within the app. The integrated
                     testing features allow for a streamlined .</p>
             </div>
             <div>
@@ -383,7 +401,7 @@
             <div class="successModalContent">
                 <img src="dist/images/success.png" alt="">
                 <h5>success</h5>
-                <h6>Thank you for Booking Our Bus Seats. 
+                <h6>Thank you for Booking Our Bus Seats.
                     We are working hard to find the best service and deals for you.</h6>
                 <p>Shortly you will find a confirmation in your email.</p>
                 <a href="#">continue</a>
@@ -397,7 +415,7 @@
             <div>
                 <div>
                     <h2><a href="#">P.H Paribahan</a></h2>
-                    <p>P-Ticket is a digital platform to make your 
+                    <p>P-Ticket is a digital platform to make your
                         daily commuting better.</p>
                 </div>
                 <div>

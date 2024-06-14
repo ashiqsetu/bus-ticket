@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primaryColor': '#AE862D', // rgb(174, 134, 45)
-        'gradient1': 'rgba(52, 58, 64, 0.1)',
-        'gradient2': 'rgba(174, 134, 45, .15)',
-        'galleryGradient': 'rgba(174, 134, 45,.8)',
+        'primaryColor': '#1DD100', // rgb(29, 209, 0)
+        'primaryColorA10': 'rgba(29, 209, 0, .1)', // rgb(29, 209, 0)
+        'primaryColorA40': 'rgba(29, 209, 0, .4)', // rgb(29, 209, 0)
+        'secondaryColor': '#030712', // rgb(3, 7, 18)
+        'secondaryColorA60': 'rgba(3, 7, 18, 0.6)', // rgb(3, 7, 18)
       },
     },
     container: {

@@ -2,36 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-manrope {
-    font-family: "Manrope", sans-serif;
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    width: 1170px !important;
-    margin: 0 auto;
+  width: 1170px !important;
+  margin: 0 auto;
 }
 
 @media (max-width: 1199.98px) {
-    .container {
-      width: 960px !important;
-    }
+  .container {
+    width: 960px !important;
+  }
 }
 
 @media (max-width: 991.98px) {
-    .container {
-      width: 720px !important;
-    }
+  .container {
+    width: 720px !important;
+  }
 }
 
 @media (max-width: 767.98px) {
-    .container {
-      width: 540px !important;
-    }
+  .container {
+    width: 540px !important;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .container {
-      width: 100% !important;
-      padding: 0 15px;
-    }
+  .container {
+    width: 100% !important;
+    padding: 0 15px;
+  }
 }
