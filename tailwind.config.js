@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html", "./dist/*.{html,css,js}"],
+  content: ["./*.html", "./dist/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -10,12 +10,16 @@ module.exports = {
         'primaryColorA40': 'rgba(29, 209, 0, .4)',
         'secondaryColor': '#030712', // rgb(3, 7, 18)
         'secondaryColorA05': 'rgba(3, 7, 18, 0.05)',
+        'secondaryColorA10': 'rgba(3, 7, 18, 0.1)',
         'secondaryColorA20': 'rgba(3, 7, 18, 0.2)',
         'secondaryColorA30': 'rgba(3, 7, 18, 0.3)',
         'secondaryColorA40': 'rgba(3, 7, 18, 0.4)',
         'secondaryColorA50': 'rgba(3, 7, 18, 0.5)',
         'secondaryColorA60': 'rgba(3, 7, 18, 0.6)',
         'secondaryColorA80': 'rgba(3, 7, 18, 0.8)',
+        'whiteColorA30': 'rgba(255, 255, 255, 0.3)',
+        'whiteColorA80': 'rgba(255, 255, 255, 0.8)',
+        'whiteColorA70': 'rgba(255, 255, 255, 0.7)',
       },
     },
     container: {
